@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap");
+* {
+  margin: 0;
+  font-family: "Roboto Condensed", sans-serif;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: skyblue;
+}
+
+.wrapper {
+  width: 650px;
+  background-color: white;
+  border-radius: 20px;
+  padding: 30px 30px 25px;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
+    rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.wrapper h2 {
+  display: inline;
+  text-align: center;
+}
+.wrapper .author {
+  display: flex;
+  justify-content: flex-end;
+}
+.wrapper span {
+  font-weight: 400;
+}
+.lower {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.fa-brands {
+  font-size: larger;
+  cursor: pointer;
+}
+
+.fa-sharp {
+  display: inline;
+  font-size: x-large;
+}
